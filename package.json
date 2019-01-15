@@ -2,7 +2,12 @@
   "name": "bcrypt-test",
   "version": "0.1.0",
   "private": true,
+  "main": "server/server.js",
+  "proxy": "http://localhost:3005",
   "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
